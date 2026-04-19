@@ -30,7 +30,10 @@ window.onload = function () {
                         <ul>
                             ${movie.Actors.map((a) => `<li>${a}</li>`).join("")}
                         </ul>
-                        <button class="edit-btn">Edit</button>
+                        <div style="margin-top: 16px; display: flex; justify-content: flex-end;">
+                          <button class="edit-btn">Edit</button>
+                        </div>
+
                     </div>
                 `;
         movieEl.querySelector(".edit-btn").onclick = function () {
