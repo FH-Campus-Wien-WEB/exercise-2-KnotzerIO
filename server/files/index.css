@@ -1,41 +1,71 @@
 @import url(base.css);
 
-h1 {
-  font-size: 200%;
-  margin: 8px 0px;
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid #333;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.github-link svg {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    fill: #fff;
 }
 
 img {
-  border-radius: 12px;
+    border-radius: 16px;
+    border: 1px solid #333;
+}
+
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 16px;
 }
 
 article {
-  background-color: lightgray;
-  border-radius: 16px;
-  padding: 16px;
-  margin: 2vw;
-}
-
-span {
-  margin-right: 4px;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid #333;
+    border-radius: 16px;
 }
 
 .genre {
-  padding: 4px 8px;
-  border: solid black 1px;
-  border-radius: 6px;
-  background-color: darkgray;
-  font-weight: bold;
-}
-
-input {
-  width: 100%;
-}
-
-select {
-  width: 100%;
-}
-
-textarea {
-  width: 100%;
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-right: 4px;
+    margin-top: 4px;
 }
