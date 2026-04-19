@@ -1,71 +1,71 @@
 @import url(base.css);
 
 body {
-    background-color: #000;
-    color: #fff;
-    margin: 0;
-    padding: 0;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    border-bottom: 1px solid #333;
+  border-bottom: 1px solid #333;
 }
 
 .header-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .header-right {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .github-link {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .github-link svg {
-    width: 14px;
-    height: 14px;
-    margin-right: 6px;
-    fill: #fff;
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  fill: #fff;
 }
 
 img {
-    border-radius: 16px;
-    border: 1px solid #333;
+  border-radius: 16px;
+  border: 1px solid #333;
 }
 
 main {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 16px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 16px;
 }
 
 article {
-    display: flex;
-    gap: 16px;
-    padding: 16px;
-    margin: 16px;
-    border: 1px solid #333;
-    border-radius: 16px;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid #333;
+  border-radius: 16px;
 }
 
 .genre {
-    display: inline-block;
-    border: 1px solid #333;
-    padding: 4px 8px;
-    border-radius: 8px;
-    margin-right: 4px;
-    margin-top: 4px;
+  display: inline-block;
+  border: 1px solid #333;
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin-right: 4px;
+  margin-top: 4px;
 }
